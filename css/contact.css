@@ -1,0 +1,10 @@
+body {
+    background-color: #e9e3a8de;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: large;
+}
+
+footer p {
+    font-size: small;
+    color: red;
+}
