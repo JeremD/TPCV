@@ -5,3 +5,9 @@ body {
     text-align: justify;
     padding: 10px;
 }
+
+footer {
+    margin-top: 40px;
+    font-style: italic;
+    font-size: medium;
+}
