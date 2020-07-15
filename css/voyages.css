@@ -1,0 +1,13 @@
+body {
+    background-color: #e9ecef;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: large;
+    text-align: justify;
+    padding: 10px;
+}
+
+.carousel {
+  width:640px;
+  height:360px;
+  margin: auto;
+}
