@@ -1,46 +1,66 @@
 <!DOCTYPE html>
 <html lang="fr">
 
+    <!-- Head -->
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/ddmenu.css">
         <link rel="stylesheet" href="css/contact.css">
         <title>Contact</title>
     </head>
-    <header>
-        <h1>Me contacter</h1>
-        <p>Vous avez une anecdote à partager ou une expérience à me raconter ?
-            <br>
-            N'hésitez pas à me contacter à travers ce formulaire !
-        </p>
-    </header>
+
+    <!-- Menu de navigation -->
     <nav>
-        <ul>
-            <li><a href="index.html">Retour à l'accueil</a></li>
-        </ul>
+        <a id="ddmenuLink" href="menu-bar.html"></a>
     </nav>
+
+    <!-- Header -->
+    <header class="jumbotron">
+        <h1>Me contacter</h1>
+    </header>
+
     <body>
-
         <section class="contact_me">
-            <form action="/send_contact" method="post">
-                <label for="nom_client">Nom : </label>
-                <input type="text" name="lastname" id="nom_client" /><br /><br
-                    />
-                <label for="prenom_client">Prénom : </label>
-                <input type="text" name="firstname" id="prenom_client" /><br /><br
-                    />
-                <label for="email_client">Email : </label>
-                <input type="email" name="email" id="email_client" /><br /><br
-                    />
-                <label for="message_contact"> Message : </label>
-                <textarea name="message" id="message_contact" cols="50"
-                    rows="10"></textarea><br /><br />
-                <input type="submit" value="Envoyer" />
-            </form>
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-comment"></i> Vous avez besoins de me contacter ? Cette rubrique est là pour m'écrire un message.
+                </div>
+                <div class="card-body">
+                    <form action="mailto:delpech.jeremy@yahoo.com" method="post" enctype="multipart/form-data">
+                        <label for="contact_email"> Mail : </label>
+                        <input class="form-control" type="email" id="contact_email" placeholder="Entrez votre mail">
+                        <br/>
+                            <div class="form-group">
+                                <label class="card-text" id="message"
+                                    for="contact_message"> Message : </label>
+                                <textarea class="form-control"
+                                    id="contact_message" rows="5" cols="30"
+                                    placeholder="Entrez votre message"></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary
+                                form-control"> Envoyer
+                            </button>
+                    </form>
+                 </div>
+            </div>
         </section>
-    </body>
-    <footer>
-        <p>Merci de ne pas utiliser cette page pour me spammer, tout abus s'abstenir</p>
-    </footer>
 
-</html>
+            <!-- Scripts js -->
+            <script src="js/ddmenu.js"></script>
+            <script src="js/jquery-3.5.1.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+    
+    </body>
+
+        <!-- Footer -->
+        <footer style="margin-top: 10px;">
+            <p class="text-danger"> Merci de ne pas utiliser ce formulaire à des
+                fins de spam. Tout abus
+                s'abstenir</p>
+        </footer>
+
+    </html>

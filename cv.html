@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="fr">
 
+    <!-- Head -->
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/ddmenu.css">
         <link rel="stylesheet" href="css/cv.css">
         <title>CV Jérémy D.</title>
     </head>
 
-    <header>
-        <h1>Jérémy DELPECH</h1>
-        <h2>Ingénieur d'Etudes et Développement Java DevOps</h2>
-    </header>
+    <!-- Menu de navigation -->
     <nav>
-        <ul>
-            <li><a href="index.html">Retour à l'accueil</a></li>
-        </ul>
+        <a id="ddmenuLink" href="menu-bar.html"></a>
     </nav>
 
+    <!-- Header -->
+    <header>
+        <div><h1>Jérémy DELPECH</h1></div>
+        <div><h1>Ingénieur d'Etudes et Développement Java DevOps</h1></div>
+    </header>
+
+    <!-- Body -->
     <body>
+        <!-- Introduction + coordonées -->
         <section>
             <div class="photo">
                 <img src="images/photo_temp.png" alt="Photo de profil">
@@ -28,24 +35,151 @@
                 <p> Je suis diplômé d'un BAC+5 en Ingénierie Informatique à
                     l'EPSI de Bordeaux.
                     Après avoir obtenu un BTS et une Licence professionnelle,
-                    j'ai
-                    décidé de poursuivre ses études jusqu'en BAC+5. Cela m'a
-                    permis
-                    d'acquérir des bases solides dans l'informatique, ainsi que
-                    des expériences professionnelles variées. <br><br>
-                    Sérieux, curieux et passionné sont les trois qualités qui me
+                    j'ai décidé de poursuivre ses études jusqu'en BAC+5. Cela
+                    m'a
+                    permis d'acquérir des bases solides dans l'informatique,
+                    ainsi que
+                    différentes expériences professionnelles. <br><br>
+                    <strong>Sérieux</strong>, <strong>curieux </strong> et
+                    <strong>minutieux</strong> sont les trois qualités qui me
                     caractérisent.</p>
             </div>
-            <div class="competences">
-                <h2>Mes compétences</h2>
-            </div>
-            <div class="formations">
-                <h2>Mes formations</h2>
-            </div>
-            <div class="experiences">
-                <h2>Mes expériences</h2>
+            <div class="contact">
+                <h2>Coordonées</h2>
+                <div class="contact-adresse">
+                    <h4>Adresse :</h4>
+                    <p>5 rue des Pétunias, 33600 Pessac</p>
+                </div>
+                <div class="contact-telephone">
+                    <h4>Téléphone :</h4>
+                    <p>06 38 61 98 97</p>
+                </div>
+                <div class="contact-mail">
+                    <h4>Mail :</h4>
+                    <p><a href="mailto:delpech.jeremy@yahoo.com"></a>delpech.jeremy@yahoo.com</p>
+                </div>
+                <div class="contact-linkedin">
+                    <h4>LinkedIn :</h4>
+                    <p><a
+                            href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-delpech-85b30013b/">
+                            <img src="images/LinkedIn.png" alt="LinkedIn"></a>
+                    </p>
+                </div>
             </div>
         </section>
+
+        <!-- Compétences -->
+        <section>
+            <h2>Compétences</h2>
+            <div class="competence">
+                <p>HTML / CSS</p>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%">75%</div>
+                <p>MySQL</p>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:40%">75%</div>
+                <p>PHP</p>
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:30%">50%</div>
+                <p>JavaScript</p>
+                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width:30%">50%</div>
+                <p>Git</p>
+                    <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated" style="width:40%">75%</div>
+                <p>Java</p>
+                    <div class="progress-bar bg-dark progress-bar-striped progress-bar-animated" style="width:40%">75%</div>
+                <p>Python</p>
+                    <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width:20%">25%</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Formations</h2>
+            <div class="formation">
+                <div class="exp-logo">
+                    <a href="#"><img
+                            src="images/logo_epsi.png"
+                            alt="EPSI"></a>
+                </div>
+                <div class="exp-info">
+                    <h3>Expert en informatique et systèmes d'information (EPSI)</h3>
+                    <h4>Ecole d'ingénierie informatique, Bordeaux (33)</h4>
+                    <h5>Octobre 2017 - Septembre 2019</h5>
+                </div>
+            </div>
+            <div class="formation">
+                <div class="exp-logo">
+                    <a href="#"><img
+                            src="images/logo_univ_bordeaux.png"
+                            alt="Université Bordeaux"></a>
+                </div>
+                <div class="exp-info">
+                    <h3>Licence Professionnelle Administrateur et Développeur de
+                        Systèmes Informatiques à base de Logiciels Libres et Hybrides
+                        (ADSILLH)</h3>
+                    <h4>Université de Bordeaux (33)</h4>
+                    <h5>Septembre 2016 - Septembre 2017</h5>
+                </div>
+            </div>
+            <div class="formation">
+                <div class="exp-logo">
+                    <a href="#"><img
+                            src="images/logo_gaston_crampe.png"
+                            alt="Lycée Gaston Crampe"></a>
+                </div>
+                <div class="exp-info">
+                    <h3>BTS Systèmes Numériques – Informatique et Réseaux (SN-IR)</h3>
+                    <h4>Lycée Gaston Crampe, Aire-sur-l'Adour (40)</h4>
+                    <h5>Septembre 2014 - Juin 2016</h5>
+                </div>
+            </div>
+        </section>
+
+        <section>
+        <h2>Expériences</h2>
+            <div class="experience">
+                <div class="exp-logo">
+                    <a href="#"><img src="images/logo_nystek.png" alt="Logo NYSTEK"></a>
+                </div>
+                <div class="exp-info">
+                    <h3>CDI - Développeur web</h3>
+                    <h4>NYSTEK, Bordeaux (33)</h4>
+                    <h5>Septembre 2019 - Février 2020</h5>
+                </div>
+                <div class="exp-desc">
+                    <p>Développeur web au sein d'une petite équipe, dans le cadre de l'évolution d'une application Laravel déja existante. </p>
+                </div>
+            </div>
+
+            <div class="experience">
+                <div class="exp-logo">
+                    <a href="#"><img src="images/logo_maisadour.png" alt="Logo MAÏSADOUR"></a>
+                </div>
+                <div class="exp-info">
+                    <h3>Contrat de professionnalisation - Analyste développeur</h3>
+                    <h4>GROUPE COOPERATIF MAÏSADOUR, Haut-Mauco (40)</h4>
+                    <h5>Septembre 2018 - Août 2019</h5>
+                </div>
+                <div class="exp-desc">
+                    <p>Analyste développeur au sein de la DSI de MAÏSADOUR, avec pour mission importante la création d'un site web WordPress pour un client professionnel.</p>
+                </div>
+            </div>
+
+            <div class="experience">
+                <div class="exp-logo">
+                    <a href="#"><img src="images/logo_depanordi.png" alt="Logo DÉPANORDI"></a>
+                </div>
+                <div class="exp-info">
+                    <h3>Contrat de professionnalisation - Ingénieur Informatique</h3>
+                    <h4>DÉPANORDI, Bordeaux (33)</h4>
+                    <h5>Novembre 2017 - Juillet 2018</h5>
+                </div>
+                <div class="exp-desc">
+                    <p>Ingénieur informatique dont la mission principale était de mettre en place Dolibarr, une solution ERP au sein de la société.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scripts js -->
+        <script src="js/ddmenu.js"></script>
+        <script src="js/jquery-3.5.1.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </body>
 
 </html>

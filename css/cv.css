@@ -1,14 +1,38 @@
 body {
-    background-color: #e9e2a8;
+    background-color: #e9ecef;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: large;
     text-align: justify;
+    padding: 10px;
 }
 
-img {
-    width: 15%;
+#presentation h2 {
+
+}
+
+.photo {
+    width: 10%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /* photo responsive */
     max-width: 100%;
     height: auto;
+}
+
+/* Container for skill bars */
+.container {
+    width: 100%;
+    background-color: #ddd;
+    margin: 10px;
+}
+
+.competence {
+    font-weight: bold;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: white;
 }

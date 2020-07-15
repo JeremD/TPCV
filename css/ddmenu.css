@@ -1,0 +1,57 @@
+body {
+    background-color: #e9ecef;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: large;
+    text-align: justify;
+    padding: 10px;
+}
+
+/* Style Menu */
+#ddmenu ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    list-style: none;
+    background-color: #333333;
+
+}
+
+#ddmenu li {
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    list-style: none;
+}
+
+#ddmenu a {
+    color: #eeeeee;
+    list-style-type: none;
+}
+/* Fin Style Menu */
+
+/* Background animé */
+.hero-bkg-animated {
+    background: gray url("../images/bg_geometry.png") repeat 0 0;
+    width: 100%;
+    text-align: center;
+    height: 300px;
+    box-sizing: border-box;
+    -webkit-animation: slide 15s linear infinite;
+}
+
+.hero-bkg-animated h1 {
+    font-family: sans-serif;
+}
+
+@-webkit-keyframes slide {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: -400px 0;
+    }
+}
+/* Fin Background animé */
