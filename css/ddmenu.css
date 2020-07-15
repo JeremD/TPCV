@@ -38,14 +38,14 @@ body {
     text-align: center;
     height: 300px;
     box-sizing: border-box;
-    -webkit-animation: slide 15s linear infinite;
+    animation: slide 15s linear infinite;
 }
 
 .hero-bkg-animated h1 {
     font-family: sans-serif;
 }
 
-@-webkit-keyframes slide {
+@keyframes slide {
     from {
         background-position: 0 0;
     }

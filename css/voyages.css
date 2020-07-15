@@ -7,7 +7,7 @@ body {
 }
 
 .carousel {
-  width:640px;
-  height:360px;
-  margin: auto;
+    max-width: 640px;
+    height: 360px;
+    margin: auto;
 }
