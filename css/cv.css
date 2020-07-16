@@ -13,36 +13,33 @@ body {
     height: auto;
 }
 
+/* Section du CV */
 h2 {
     font-weight: bold;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
+/* Titre de la formation ou expérience */
 h3 {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.competence p {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.entity {
+    margin-top: 50px;
 }
 
 .logo-entity {
     margin-bottom: 10px;
 }
 
-.competence p{
-    font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 0px;
-}
-
-.formation {
-    margin-bottom: 50px;
-}
-
-/*Experiences */
-.experience {
-    margin-bottom: 0;
-}
-
 .experience-desc {
     font-style: italic;
 }
-/*Fin Experiences */
