@@ -35,7 +35,6 @@ body {
 .hero-bkg-animated {
     background: gray url("../images/bg_geometry.png") repeat 0 0;
     width: 100%;
-    text-align: center;
     height: 300px;
     box-sizing: border-box;
     animation: slide 15s linear infinite;
