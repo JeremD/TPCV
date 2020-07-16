@@ -6,12 +6,6 @@ body {
     padding: 10px;
 }
 
-.photo img {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    max-width: 100%;
-    height: auto;
-}
-
 /* Titre du CV */
 h1  {
     font-weight: bolder;
@@ -21,16 +15,17 @@ h1  {
 h2 {
     font-weight: bold;
     background-color: silver;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 
-/* Titre de la formation ou expérience */
+/* Intitulé de la formation ou expérience */
 h3 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
+/* Contact */
 .contact-info h4 {
     text-decoration: underline;
 }
@@ -39,16 +34,26 @@ h3 {
     font-style: italic;
 }
 
+/* Photo de profil */
+.photo img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 100%;
+    height: auto;
+}
+
+/* Compétences */ 
 .competence p {
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 0px;
 }
 
+/* Logo des formations et expériences */
 .logo-entity {
     margin-top: 50px;
 }
 
+/* Descriptions des expériences */
 .experience-desc {
     font-style: italic;
 }
