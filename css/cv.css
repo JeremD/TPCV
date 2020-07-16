@@ -13,8 +13,9 @@ body {
     height: auto;
 }
 
-.img {
-    width: 50%;
+h2 {
+    font-weight: bold;
+    margin-top: 30px;
 }
 
 /* Container for skill bars */
