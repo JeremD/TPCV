@@ -1,3 +1,3 @@
 # Mon Blog
 
-Site web développé avec Bootstrap
+Site web statique développé avec Bootstrap
