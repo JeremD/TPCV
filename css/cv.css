@@ -7,7 +7,7 @@ body {
 }
 
 /* Titre du CV */
-h1  {
+h1 {
     font-weight: bolder;
 }
 
@@ -16,13 +16,17 @@ h2 {
     font-weight: bold;
     background-color: silver;
     margin-top: 40px;
-    margin-bottom: 20px;
 }
 
 /* Intitulé de la formation ou expérience */
 h3 {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+/* Ligne horizontale */
+hr {
+    border: 1px dashed #212529;
 }
 
 /* Contact */
@@ -41,7 +45,7 @@ h3 {
     height: auto;
 }
 
-/* Compétences */ 
+/* Compétences */
 .competence p {
     font-weight: bold;
     margin-top: 10px;
